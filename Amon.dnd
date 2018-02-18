@@ -1,14 +1,20 @@
 Amon Anfauglir 
 
 -- Stats --
-> Lvl		1     
+> Lvl        1
 > HP 
 > Str
 > Dex
 > Con
-> 
+> Int
+> Wis
+> Cha
 
--- Combat Modifiers --
+-- Combat --
+< AC
+< Attack Modifier
+< Spell Modifier
+< Proficiency
 
 Notes:
 : for flight keep wings during lycanthropy and lose all but cantrip re: infernal legacy
@@ -28,9 +34,9 @@ Notes:
  ~ Primordial
 ~ Background ~
  ~ Haunted One (http://engl393-dnd5th.wikia.com/wiki/Haunted_One)
-  * Skill (Background): 
-    * Arcana
-    * Investigation
+  ~ Skill (Background): 
+    ~ Arcana
+    ~ Investigation
   ~ Heart of Darkness
     ~ Commoners will do their utmost to provide me assistance.
     ~ Commoners will join me if fighting alone.

@@ -15,6 +15,17 @@ function eq() {
 
 function stats() {
 	echo "-- $1's Stats --"
+	cat $1.dnd | grep '^>'
+}
+
+function combat() {
+	echo "-- $1's Combat Modifiers"
+	cat $1.dnd | grep '^<'
+}
+
+function prof() {
+	echo "-- $1's Proficiencies --"
+	cat $1.dnd | grep '^\s*\*'
 }
 
 cat << "EOF"
