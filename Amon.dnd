@@ -1,20 +1,22 @@
 Amon Anfauglir 
 
 -- Stats --
-> Lvl        1
-> HP 
-> Str
-> Dex
-> Con
-> Int
-> Wis
-> Cha
+> Lvl        2
+> HP         16/27
+> Str        13          +1
+> Dex        16+2 (18)   +4
+> Con        15          +2
+> Int        14+1 (15)   +2
+> Wis        14          +1
+> Cha        12          +1
 
 -- Combat --
-< AC
-< Attack Modifier
-< Spell Modifier
-< Proficiency
+< AC                       14+2 (16)
+< Attack Modifier to hit   +6
+< Attack Damage (Sword)    +6
+< Attack Damage (Bow)      +4
+< Spell Modifier           N/A
+< Proficiency              +2
 
 Notes:
 : for flight keep wings during lycanthropy and lose all but cantrip re: infernal legacy
@@ -83,26 +85,41 @@ In these dreams I was introduced to Draugluin, the first wolf and servant of Sel
 + Wisdom (Survival) check to track Fey, Fiends, and Undead
 + Intelligence check to recall info about Fey, Fiends, and Undead
 + Can't be surprised by same creature type of one I'm tracking (Fey, Fiends, and Undead only; can only track one at a time)
-+ Primal Rite(s): 
++ Crimson Rite(s)
+ + Primal Rite(s): 
   + Rite of the Storm - bonus action, 1d4 magical lightning damage
 + Cantrip(s): 
-  + Thaumaturgy - 30 ft range, action, if cast multiple times up to 3 of 1 min effects can be active
-    + Voice booms up to 3x (1 min)
-    + Flames flicker, brighten, dim, change color (1 min)
-    + Harmless ground tremors (1 min)
-    + Insta sound originiating from area in range (e.g. thunder, raven, whispers)
-    + Open/Shut unlocked door/window
-    + Eye appearance changes (1 min)
+ + Thaumaturgy - 30 ft range, action, if cast multiple times up to 3 of 1 min effects can be active
+   + Voice booms up to 3x (1 min)
+   + Flames flicker, brighten, dim, change color (1 min)
+   + Harmless ground tremors (1 min)
+   + Insta sound originiating from area in range (e.g. thunder, raven, whispers)
+   + Open/Shut unlocked door/window
+   + Eye appearance changes (1 min)
++ Dueling +2 ATK
++ Blood Curse (Amplify take rolled crimson rite damage)
+ + Blood Curse of the Marked: 60 ft, double crimson rite damage, amplify: lose resistance to damage type
++ Advantage on Perception rolls dealing with hearing and smell 
 \ New ones at LvL 11
 
 -- Order of the Lycan --
-Will I succumb to the curse of Draugluin?
++ Hybrid Form
+ + Werewolf (2x per rest)
+ + Wings (30ft flying speed)
+ + 10 min (100 turns)
+ + Feral Might (melee damage rolls +1/2 of proficiency, adv on strength check and strength save)
+ + Resiient Hide (Resistance to piercing and slashing on non-magical, non-silvered, +1 AC)
+ + Predatory Strikes (1d6 slashing same element as crimson rite, DEX, x2 unarmed strike as bonus action)
+ + Cursed Weakness (vulnerable to silvered weapons)
+ + Bloodlust (If damage taken, DC 10 if over 1/2 health otherwise 15, fail attack nearest creature, regain control after) 
 
 -- Starting Equipment --
-[ Gurthang (Katana) 1d6+1
-[ Hand Crossbow
+[ 0 G
+[ Needle that doesn't bend
+[ Gurthang (Katana) 1d6+1 Slashing
+[ Hand Crossbow 1d6 Piercing (30/120)
 [ Bolts x20
-[ Scale Mail Armor
+[ Scale Mail Armor    14 AC + Dex
 | Explorer's Pack
   [ Backpack
   [ Bedroll
