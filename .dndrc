@@ -1,16 +1,16 @@
 function abs() {
 	echo "-- $1's Abilities --"
-	cat $1 | grep '^\s*+'
+	cat $1.dnd | grep '^\s*+'
 }
 
 function desc() {
 	echo "-- $1's Description --"
-	cat $1 | grep '\~'
+	cat $1.dnd | grep '\~'
 }
 
 function eq() {
 	echo "-- $1's Equipment --"
-	cat $1 | grep '\['
+	cat $1.dnd | grep '\['
 }
 
 function stats() {
