@@ -1,0 +1,124 @@
+Podhl Titanbark
+
+-- Stats --
+> Lvl        1
+> HP         x/x
+> Str        x+1    +x
+> Dex        x      +x
+> Con        x      +x
+> Int        x      +x
+> Wis        x+2    +x
+> Cha        x      +x
+> Prof       +2
+> Age        100
+> Alignment  Chaotic Good
+> Size       10'5"; 600lbs; Medium
+> Speed      30ft
+> Hit Die    d8
+
+-- Combat --
+< AC                                       11 + Dexterity                       (+x)
+< Attack Damage (Quarterstaff)             Strength                             (+x)
+< Attack Damage (Dart)                     Strength/Dexterity                   (+x)
+< Attack Modifier to hit (Quarterstaff)    Strength + Proficiency               (+x)
+< Attack Modifier to hit (Dart)            Strength/Dexterity + Proficiency     (+x)
+< Spell Modifier                           Proficiency + Wisdom                 (+x)
+< Spell Save DC                            8 + Proficiency + Wisdom             (+x)
+
+Notes:
+: 
+
+-- Firbolg --
+~ Disguises himself as human when in town:
+ ~ Medium length black (shines green in the sun) hair
+ ~ Clean shaven
+ ~ Late teen, early twenties
+ ~ Pale
+ ~ Chubby, looks out of shape
+ ~ 7'5"
+~ Actually looks like:
+ ~ Long green hair
+ ~ Thick beard
+ ~ Middle Age (think mid 30's human)
+ ~ Olive Skin
+ ~ Fit
+ ~ 10'5"
+~ Languages ~
+ ~ Common
+ ~ Giant
+ ~ Elven
+ ~ Gnomish (Background)
+~ Background ~
+ ~ Hermit
+  ~ Skill (Background): 
+    ~ Medicine
+    ~ Religion
+  ~ Life of Seclusion
+    ~ Reluctant exile, accidentally burnt down the house of the clan leaders while smoking some herbs
+  ~ Discovery
+    ~ ???
+  ~ Personality Trait
+    ~ I am utterly serene, even in the face of disaster
+  ~ Ideal
+    ~ Inquiry and curiosity are the pillars of progress
+  ~ Bond
+    ~ Nothing is more important than the other members of my Firbolg druidic order
+  ~ Flaw
+    ~ I enjoy the delights of the world a little too much. namely the herbs
+
+-- Proficiencies -- 
+* Skill (Background)
+ * Medicine
+ * Religion
+* Skill
+ * Survival
+ * Perception
+* Armor
+ * Light
+ * Medium
+ * Shields (Non-metal)
+* Weapons
+ * Clubs
+ * Daggers
+ * Darts
+ * Javelins
+ * Maces
+ * Quarterstaffs
+ * Scimitars
+ * Sickles
+ * Slings
+ * Spears
+* Tools
+ * Herbalism Kit (Background)
+
+-- Abilities --
++ Firbolg Magic (use Wisdom)
+ + Detect Magic
+ + Disguise Self - can appear 3ft shorter
++ Hidden Step - Bonus action; magically invisible until next turn, damage roll, or force saving throw; reuse after short/long rest
++ Powerful Build - One size larger when determining carrying capacity and weight I can push, drag, or lift
++ Speech of Beast and Leaf - One way communication with beast and plants; they can understand me but not the other way around; Advantage on Charisma checks to influence
++ Cantrip(s): 
+ + 1 - Thorn Whip
+ + 2 - Shillelagh
++ Spell(s)
+ + 1st Level
+   + 1 - Cure Wounds
+   + 2 - Thunderwave
+
+-- Starting Equipment --
+[ 5 G
+[ Quarterstaff 1d6 Bludgeoning, 1d8 Versatile
+[ Dart 1d4 Piercing Finesse, thrown (20/60)
+[ Leather Armor    11 AC + Dex
+[ Druidic Focus    Herbal Smokable
+| Explorer's Pack
+  [ Backpack
+  [ Bedroll
+  [ Mess Kit
+  [ Tinderbox
+  [ Torches x10
+  [ Rations x10
+  [ Waterskin
+  [ Hemp Rope 50ft
+[ Herbalism Kit
