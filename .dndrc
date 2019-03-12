@@ -20,7 +20,7 @@ function stats() {
 
 function combat() {
 	echo "-- $1's Combat Modifiers"
-	cat $1.dnd | grep '^<'
+	cat $1.dnd | grep '^<' | cut -f2- -d\< | bash --rcfile ../.dndrc -i /dev/stdin | grep '^<'
 }
 
 function prof() {
@@ -36,12 +36,17 @@ function getModifier() {
 	else
     		modifier=$(( ($ability - 11) / 2 ))
 	fi
-	if [ "$modifier" -lt 0 ]
-	then
-		echo $modifier
-	else
-		echo "+$modifier"
-	fi
+	echo $modifier
+}
+
+function printModifier() {
+        modifier=$(getModifier $1)
+        if [ "$modifier" -lt 0 ]
+        then
+                echo $modifier
+        else
+                echo "+$modifier"
+        fi
 
 }
 

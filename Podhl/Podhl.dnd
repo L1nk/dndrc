@@ -3,12 +3,12 @@ Podhl Titanbark
 -- Stats --
 >echo "> Lvl        1"
 >echo "> HP         `cat currentHealth`/`cat totalHealth`"
->echo "> Str        `cat strength`+1 (Trait)     `getModifier $(echo $(( $(cat strength) + 1 )) )`"
->echo "> Dex        `cat dexterity`               `getModifier $(echo $(( $(cat dexterity) )) )`"
->echo "> Con        `cat constitution`               `getModifier $(echo $(( $(cat constitution) )) )`"
->echo "> Int        `cat intelligence`               `getModifier $(echo $(( $(cat intelligence) )) )`"
->echo "> Wis        `cat wisdom`+2 (Trait)     `getModifier $(echo $(( $(cat wisdom) + 2 )) )`"
->echo "> Cha        `cat charisma`               `getModifier $(echo $(( $(cat charisma) )) )`"
+>echo "> Str        `cat strength`+1 (Trait)     `printModifier $(echo $(( $(cat strength) + 1 )) )`"
+>echo "> Dex        `cat dexterity`               `printModifier $(echo $(( $(cat dexterity) )) )`"
+>echo "> Con        `cat constitution`               `printModifier $(echo $(( $(cat constitution) )) )`"
+>echo "> Int        `cat intelligence`               `printModifier $(echo $(( $(cat intelligence) )) )`"
+>echo "> Wis        `cat wisdom`+2 (Trait)     `printModifier $(echo $(( $(cat wisdom) + 2 )) )`"
+>echo "> Cha        `cat charisma`               `printModifier $(echo $(( $(cat charisma) )) )`"
 >echo "> Prof       +`cat proficiency`"
 >echo "> Age        100"
 >echo "> Alignment  Chaotic Good"
@@ -17,13 +17,13 @@ Podhl Titanbark
 >echo "> Hit Die    d8"
 
 -- Combat --
-< AC                                       11 + Dexterity                       (+x)
-< Attack Damage (Quarterstaff)             Strength                             (+x)
-< Attack Damage (Dart)                     Strength/Dexterity                   (+x)
-< Attack Modifier to hit (Quarterstaff)    Strength + Proficiency               (+x)
-< Attack Modifier to hit (Dart)            Strength/Dexterity + Proficiency     (+x)
-< Spell Modifier                           Proficiency + Wisdom                 (+x)
-< Spell Save DC                            8 + Proficiency + Wisdom             (+x)
+<echo "< AC                                                                            $(( $(cat armorAC) + `getModifier $(echo $(( $(cat dexterity) )) )` ))"
+<echo "< Attack Damage (Quarterstaff)             Strength                             `printModifier $(echo $(( $(cat strength) + 1 )) )`"
+<echo "< Attack Damage (Dart)                     Strength/Dexterity                   `printModifier $(echo $(( $(cat strength) + 1 )) )`/`printModifier $(echo $(( $(cat dexterity) )) )`"
+<echo "< Attack Modifier to hit (Quarterstaff)    Strength + Proficiency               $(( `getModifier $(echo $(( $(cat strength) + 1 )) )` + `cat proficiency` ))"
+<echo "< Attack Modifier to hit (Dart)            Strength/Dexterity + Proficiency     `printModifier $(echo $(( $(cat strength) + 1 )) )`/`printModifier $(echo $(( $(cat dexterity) )) )` + `cat proficiency`"
+<echo "< Spell Modifier                           Proficiency + Wisdom                 $(( $(cat proficiency) + `getModifier $(echo $(( $(cat wisdom) )) )` ))"
+<echo "< Spell Save DC                            8 + Proficiency + Wisdom             $(( 8 + $(cat proficiency) + `getModifier $(echo $(( $(cat wisdom) )) )` ))"
 
 Notes:
 : 
