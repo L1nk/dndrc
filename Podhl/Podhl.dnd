@@ -1,20 +1,20 @@
 Podhl Titanbark
 
 -- Stats --
-> Lvl        1
-> HP         x/x
-> Str        x+1    +x
-> Dex        x      +x
-> Con        x      +x
-> Int        x      +x
-> Wis        x+2    +x
-> Cha        x      +x
-> Prof       +2
-> Age        100
-> Alignment  Chaotic Good
-> Size       10'5"; 600lbs; Medium
-> Speed      30ft
-> Hit Die    d8
+>echo "> Lvl        1"
+>echo "> HP         `cat currentHealth`/`cat totalHealth`"
+>echo "> Str        `cat strength`+1 (Trait)     `getModifier $(echo $(( $(cat strength) + 1 )) )`"
+>echo "> Dex        `cat dexterity`               `getModifier $(echo $(( $(cat dexterity) )) )`"
+>echo "> Con        `cat constitution`               `getModifier $(echo $(( $(cat constitution) )) )`"
+>echo "> Int        `cat intelligence`               `getModifier $(echo $(( $(cat intelligence) )) )`"
+>echo "> Wis        `cat wisdom`+2 (Trait)     `getModifier $(echo $(( $(cat wisdom) + 2 )) )`"
+>echo "> Cha        `cat charisma`               `getModifier $(echo $(( $(cat charisma) )) )`"
+>echo "> Prof       +`cat proficiency`"
+>echo "> Age        100"
+>echo "> Alignment  Chaotic Good"
+>echo "> Size       10ft 5in; 600lbs; Medium"
+>echo "> Speed      30ft"
+>echo "> Hit Die    d8"
 
 -- Combat --
 < AC                                       11 + Dexterity                       (+x)
@@ -111,7 +111,7 @@ Notes:
 [ Quarterstaff 1d6 Bludgeoning, 1d8 Versatile
 [ Dart 1d4 Piercing Finesse, thrown (20/60)
 [ Leather Armor    11 AC + Dex
-[ Druidic Focus    Herbal Smokable
+[ Druidic Focus    Joint Filter Tip made of Holly
 | Explorer's Pack
   [ Backpack
   [ Bedroll

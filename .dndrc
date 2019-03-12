@@ -15,7 +15,7 @@ function eq() {
 
 function stats() {
 	echo "-- $1's Stats --"
-	cat $1.dnd | grep '^>'
+	cat $1.dnd | grep '^>' | cut -f2- -d\> | bash --rcfile ../.dndrc -i /dev/stdin | grep '^>'
 }
 
 function combat() {
@@ -26,6 +26,23 @@ function combat() {
 function prof() {
 	echo "-- $1's Proficiencies --"
 	cat $1.dnd | grep '^\s*\*'
+}
+
+function getModifier() {
+	ability=$1
+	if [ $((ability%2)) -eq 0 ];
+	then
+    		modifier=$(( ($ability - 10) / 2 ))
+	else
+    		modifier=$(( ($ability - 11) / 2 ))
+	fi
+	if [ "$modifier" -lt 0 ]
+	then
+		echo $modifier
+	else
+		echo "+$modifier"
+	fi
+
 }
 
 cat << "EOF"
