@@ -23,7 +23,7 @@ Podhl Titanbark
 <echo "< Attack Modifier to hit (Quarterstaff)    Strength + Proficiency               $(( `getModifier $(echo $(( $(cat strength) + 1 )) )` + `cat proficiency` ))"
 <echo "< Attack Modifier to hit (Dart)            Strength/Dexterity + Proficiency     `printModifier $(echo $(( $(cat strength) + 1 )) )`/`printModifier $(echo $(( $(cat dexterity) )) )` + `cat proficiency`"
 <echo "< Spell Modifier                           Proficiency + Wisdom                 $(( $(cat proficiency) + `getModifier $(echo $(( $(cat wisdom) )) )` ))"
-<echo "< Spell Save DC                            8 + Proficiency + Wisdom             $(( 8 + $(cat proficiency) + `getModifier $(echo $(( $(cat wisdom) )) )` ))"
+<echo "< Spell Save DC                            8 + Proficiency + Wisdom             $(( 8 + $(cat proficiency) + `getModifier $(echo $(( $(cat wisdom) + 2  )) )` ))"
 
 Notes:
 : 
@@ -92,6 +92,9 @@ Notes:
  * Herbalism Kit (Background)
 
 -- Abilities --
++ Mark of Kalidar
++ Circle of the Land
++ Spell Slot Recovery - Short rest; x <  [ (1/2) * currentLevel ]
 + Firbolg Magic (use Wisdom)
  + Detect Magic
  + Disguise Self - can appear 3ft shorter
@@ -101,15 +104,24 @@ Notes:
 + Cantrip(s): 
  + 1 - Thorn Whip
  + 2 - Shillelagh
+ + 3 - Resistance
 + Spell(s)
+ + Circle Spell (Forest)
+   + Barkskin
+   + Spider Climb
  + 1st Level
    + 1 - Cure Wounds
    + 2 - Thunderwave
+   + 3 - Fog Cloud
+   + 4 - Faerie Fire
+ + 2nd Level
+   + 1 - Moonbeam
+   + 2 - Flaming Sphere
 
 -- Starting Equipment --
-[ 5 G
+[ 19 G
 [ Quarterstaff 1d6 Bludgeoning, 1d8 Versatile
-[ Dart 1d4 Piercing Finesse, thrown (20/60)
+[ Boomerang 1d4 Bludgeoning, thrown (30/120)
 [ Leather Armor    11 AC + Dex
 [ Druidic Focus    Joint Filter Tip made of Holly
 | Explorer's Pack
@@ -122,3 +134,6 @@ Notes:
   [ Waterskin
   [ Hemp Rope 50ft
 [ Herbalism Kit
+[ A glass orb filled with water in which swims a clockwork goldfish.
+[ Cook's Tools
+[ Tattered Book
