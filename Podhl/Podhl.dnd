@@ -24,6 +24,8 @@ Podhl Titanbark
 <echo "< Attack Modifier to hit (Dart)            Strength/Dexterity + Proficiency     `printModifier $(echo $(( $(cat strength) + 1 )) )`/`printModifier $(echo $(( $(cat dexterity) )) )` + `cat proficiency`"
 <echo "< Spell Modifier                           Proficiency + Wisdom                 $(( $(cat proficiency) + `getModifier $(echo $(( $(cat wisdom) )) )` ))"
 <echo "< Spell Save DC                            8 + Proficiency + Wisdom             $(( 8 + $(cat proficiency) + `getModifier $(echo $(( $(cat wisdom) + 2  )) )` ))"
+<echo "< Spell Slots                              Lvl 1: 3/4" 
+<echo "<                                          Lvl 2: 2/2"
 
 Notes:
 : 
@@ -119,9 +121,9 @@ Notes:
    + 2 - Flaming Sphere
 
 -- Starting Equipment --
-[ 19 G
+[ 29 G 6 S
 [ Quarterstaff 1d6 Bludgeoning, 1d8 Versatile
-[ Boomerang 1d4 Bludgeoning, thrown (30/120)
+[ Dart 1d4 Piercing Finesse, thrown (20/60)
 [ Leather Armor    11 AC + Dex
 [ Druidic Focus    Joint Filter Tip made of Holly
 | Explorer's Pack
