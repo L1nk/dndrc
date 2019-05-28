@@ -45,8 +45,8 @@ The target also gains a c1imbing speed equal to its walking speed.
 CURE WOUNDS
 1st-levei evocation
 Casting Time: I action Range: Touch Components: V,S Duration: Instantaneous
-A creature you touch regains a number of hit points equal to Id8 +your spellcasting ability modifier. This spell has no effect on undead or constructs.
-At Higher Leveis. When you cast this spell using a spell slot of 2nd levei or higher, the healing increases by Id8 for each slot level above 1st.
+A creature you touch regains a number of hit points equal to 1d8 +your spellcasting ability modifier. This spell has no effect on undead or constructs.
+At Higher Leveis. When you cast this spell using a spell slot of 2nd levei or higher, the healing increases by 1d8 for each slot level above 1st.
 
 THUNDERWAVE
 1st-leveI evocation
@@ -56,7 +56,7 @@ A wave of thunderous force sweeps out from you. Each creature in a 15-foot cube 
 pushed 10 feet away from you. On a sueeessful save, the creature takes half as much damage and isn't pushed.
 In addition, unsecured objeets that are completely within the area of effeet are automatically pushed 10 feet away from you by the spell's effeet, 
 and the spell emits a thunderous boom audible out to 300 feet.
-At Higher LeveIs. When you east this spell using a spell slot of 2nd leveI or higher, the damage inereases by
+At Higher LeveIs. When you east this spell using a spell slot of 2nd level or higher, the damage inereases by
 ld8 for eaeh slot level above 1st.
 
 FOG CLOUD
@@ -65,7 +65,7 @@ Casting Time: 1 action
 Range: 120 feet
 Components: V,S
 Duration: Concentration, up to 1 hour
-You create a 20-foot-radius sphere of fog centered on a point within range. The sphere spreads around coroers, and its area is heavily obscured. 
+You create a 20-foot-radius sphere of fog centered on a point within range. The sphere spreads around corners, and its area is heavily obscured. 
 It lasts for the duration or until a wind of moderate or greater speed (at least 10 miles per hour) disperses it.
 At Higher LeveIs. When you cast this spell using a spell slot of 2nd levei or higher, the radius of the fog increases by 20 feet for each slot levei above 1st.
 
@@ -76,7 +76,7 @@ Range: 60 feet
 Components: V
 Duration: Concentration, up to 1 minute
 Each object in a 20-foot cube within range is outlined in blue, green, or violet light (your choice). Any creature in the area when lhe spell is cast is also outlined in light if it fails 
-a Dexterity saving throw. For lhe duration, objects and affected creatures shed dim light in a 10.fool radius. 
+a Dexterity saving throw. For the duration, objects and affected creatures shed dim light in a 10 foot radius. 
 Any attack roll against an affected creature or object has advantage if the attacker can see it, and the affected creature or object can't benefit from being invisible.
 
 MOONBEAM
