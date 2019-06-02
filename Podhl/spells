@@ -2,7 +2,8 @@ RESISTANCE
 Abjuration cantrip
 Casting Time: 1 action
 Range: Touch
-Components:V,S,M(aminialuredoak) Components:V,S,M(diamondsworlh300gp,which
+Components:V,S,M(aminialuredoak) 
+Components:V,S,M(diamondsworlh300gp,which
 Duration: Concentration, up to 1 minule
 You touch one willing creature. Once before the spell ends, the target can roll a d4 and add the number rolled to one saving throw of its choice. It can roll
 the die before or after making the saving throw. The spell then ends.
@@ -11,7 +12,8 @@ SHILLELAGH
 Transmutation cantrip
 Casting Time: 1 bonus action
 Range: Touch
-Components: V,S, M(mistletoe, a shamrock leaf, and a c1ub or quarterstaff) Duration: 1 minute
+Components: V,S, M(mistletoe, a shamrock leaf, and a c1ub or quarterstaff) 
+Duration: 1 minute
 The wood of a c1ub or quarterstaff you are holding is imbued with nature's power. For the duration, you can use your spellcasting ability instead of Strength for the attack and damage rolls of melee 
 attacks using that weapon, and the weapon's damage die becomes a d8. The weapon also becomes magical, if it isn't already. The spell ends if you cast it again or if you let go of the weapon.
 
@@ -19,10 +21,22 @@ THORN WHIP
 Transmutation cantrip
 Casting Time: 1 action
 Range: 30 feet
-Components: V,S, M (the stem of a plant with thorns) Duration: Instantaneous
+Components: V,S, M (the stem of a plant with thorns) 
+Duration: Instantaneous
 You create a long, vine-like whip covered in thorns that lashes out at your command toward a creature in range. Make a melee spell attack against the target. 
 If the attack hits, the creature takes 1d6 piercing damage, and if the creature is Large or smaller, you pull the creature up to 10 feet closer to you.
-This spell's damage increases by 1d6 when you reach 5th leveI (2d6), 11th levei (3d6), and 17th leveI (4d6).
+This spell's damage increases by 1d6 when you reach 5th leveI (2d6), 11th levei (3d6), and 17th level (4d6).
+
+POISON SPRAY
+Conjuration cantrip
+Casting Time: 1 action 
+Range: 10 feet 
+Components: V,S 
+Duration: Instantaneous
+You extend your hand toward a creature you can see within range and project a puff of noxious gas from your paIm. 
+The creature must succeed on a Constitution saving throw ar take 1d12 poison damage.
+This spell's damage increases by 1d12 when you reach 5th level (2d12), 11th level (3d12), and 17th level (4d12).
+
 
 BARKSKIN
 2nd-level transmutation
@@ -44,14 +58,18 @@ The target also gains a c1imbing speed equal to its walking speed.
 
 CURE WOUNDS
 1st-levei evocation
-Casting Time: I action Range: Touch Components: V,S Duration: Instantaneous
+Casting Time: 1 action 
+Range: Touch 
+Components: V,S 
+Duration: Instantaneous
 A creature you touch regains a number of hit points equal to 1d8 +your spellcasting ability modifier. This spell has no effect on undead or constructs.
 At Higher Leveis. When you cast this spell using a spell slot of 2nd levei or higher, the healing increases by 1d8 for each slot level above 1st.
 
 THUNDERWAVE
 1st-leveI evocation
 Casting Time: 1 action Range: Self (15-foot cube)
-Compnents: V,S Duration: Instantaneous
+Compnents: V,S 
+Duration: Instantaneous
 A wave of thunderous force sweeps out from you. Each creature in a 15-foot cube originating from you must make a Constitution saving throw. On a failed save, a creature takes 2d8 thunder damage and is 
 pushed 10 feet away from you. On a sueeessful save, the creature takes half as much damage and isn't pushed.
 In addition, unsecured objeets that are completely within the area of effeet are automatically pushed 10 feet away from you by the spell's effeet, 
