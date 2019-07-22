@@ -1,7 +1,8 @@
 Podhl Titanbark
 
 -- Stats --
->echo "> Lvl        4"
+>echo "> Lvl        5"
+>echo "> XP      6500"
 >echo "> HP         `cat currentHealth`/`cat totalHealth`"
 >echo "> Str        `cat strength`+1 (Trait)     `printModifier $(echo $(( $(cat strength) + 1 )) )`"
 >echo "> Dex        `cat dexterity`               `printModifier $(echo $(( $(cat dexterity) )) )`"
@@ -26,6 +27,7 @@ Podhl Titanbark
 <echo "< Spell Save DC                            8 + Proficiency + Wisdom             $(( 8 + $(cat proficiency) + `getModifier $(echo $(( $(cat wisdom) + 2  )) )` ))"
 <echo "< Spell Slots                              Lvl 1: 4/4" 
 <echo "<                                          Lvl 2: 3/3"
+<echo "<                                          Lvl 3: 2/2"
 
 Notes:
 : 
@@ -118,6 +120,8 @@ Notes:
  + Circle Spell (Forest)
    + Barkskin
    + Spider Climb
+   + Call Lightning
+   + Plant Growth
  + 1st Level
    + 1 - Cure Wounds
    + 2 - Thunderwave
@@ -127,7 +131,9 @@ Notes:
    + 1 - Moonbeam
    + 2 - Flaming Sphere
    + 3 - Enhance Ability
-
+ + 3rd Level
+   + 1 - Sleet Storm
+   + 2 - Wind Wall
 -- Starting Equipment --
 [ 114 G 26 S
 [ Wooden Sword 1d4 Bludgeoning
@@ -148,7 +154,6 @@ Notes:
 [ A glass orb filled with water in which swims a clockwork goldfish.
 [ Cook's Tools
 [ Tattered Book
-[ 1 potion of healing 2d4+2
 [ 1 potion of healing 10hp
 [ Potion of Growth
 [ quaal's feather token - Tree. You must be outdoors to use this token. You can use an action to touch it to an unoccupied space on the ground. The token disappears, and in its place a nonmagical oak tree springs into existence. The tree is 60 feet tall and has a 5-foot-diameter trunk, and its branches at the top spread out in a 20-foot radius.

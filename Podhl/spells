@@ -104,9 +104,10 @@ Casting Time: 1 action
 Range: 90 feet
 Components: V,S
 Duration: Concentration, up to 1 minute
-Grasping weeds and vines sprout fram the ground in a 20-foot square starting from a point within range. For the duration, these plants turo the ground in the area into difficult terrain.
-A creature in the area when you cast the spell must succeed on a Strength saving throw or be restrained by the entangling plants until the spell ends. A creature restrained by the plants 
-can use its action to make a Strength check against your spell save DC. On a success, it frees itself.
+Grasping weeds and vines sprout fram the ground in a 20-foot square starting from a point within range. 
+For the duration, these plants turn the ground in the area into difficult terrain.
+A creature in the area when you cast the spell must succeed on a Strength saving throw or be restrained by the entangling plants until the spell ends.
+A creature restrained by the plants can use its action to make a Strength check against your spell save DC. On a success, it frees itself.
 When the spell ends, the conjured plants wilt away.
 
 MOONBEAM
@@ -118,7 +119,8 @@ Duration: Concentration, up to 1 minute
 A silvery beam of pale light shines down in a 5-foot- radius, 40-foot-high cylinder centered on a point within range. Until the spell ends, dim light fills the cylinder.
 When a creature enters the spell's area for the first time on a turn or starts its turn there, it is engulfed in ghostly flames that cause searing pain, and it must make a 
 Constitution saving throw. It takes 2d10 radiant damage on a failed save, or half as much damage on a successful one.
-A shapechanger makes its saving throw with disadvantage. If it fails, it also instantly reverts to its original form and can't assume a different form until it leaves the spell's light.
+A shapechanger makes its saving throw with disadvantage. 
+If it fails, it also instantly reverts to its original form and can't assume a different form until it leaves the spell's light.
 On each of your turns after you cast this spell, you can use an action to move the beam 60 feet in any direction.
 At Higher Levels. When you cast this spell using a spell slot of 3rd levei or higher, the damage increases by
 1d10 for each slot level above 2nd.
@@ -130,7 +132,8 @@ Range: 60 feet
 Components: V or S, M (a bit of tallow, a pinch of brimstone, and a dusting of powdered iron) 
 Duration: Concentration, up to 1 minute
 A 5-foot. diameter sphere of fire appears in an unoccupied space of your choice within range and lasts for the duration. 
-Any creature that ends its turn within 5 feet of the sphere must make a Dexterity saving throw. The creature takes 2d6 fire damage on a failed save, or half as mueh damage on a successful one.
+Any creature that ends its turn within 5 feet of the sphere must make a Dexterity saving throw.
+The creature takes 2d6 fire damage on a failed save, or half as much damage on a successful one.
 As a bonus action, you can move the sphere up to 30 feet. 
 If you ram the sphere into a creature, that creature must make the saving throw against the sphere's damage, and the sphere stops moving this turn.
 When you move the sphere, you can direct it over barriers up to 5 feet tall and jump it across pits up to lO feet wide. 
@@ -149,3 +152,58 @@ You touch a creature and bestow upon it a magical enhancement. Choose one of the
 - Fox's Cunning. The target has advantage on Intelligence checks.
 - Owl's Wisdom. The target has advantage on Wisdom checks.
 At Higher LeveIs. When you cast this spell using a spell slot of 3rd leveI or higher, you can target one additional creature for each slot leveI above 2nd.
+
+CALL LIGHTNING
+3rd-level conjuration
+Casting Time: 1 action
+Range: 120 feet
+Components: V,S
+Duration: Concentration, up to 10 minutes
+A storm cloud appears in the shape of a cylinder that is 10 feet tall wilh a 60.foot radius, centered on a point you can see 100 feet directly above you. The spell fails
+if you can't see a point in lhe air where the storm cloud could appear (for example, if you are in a room that can't accommodate the cloud).
+When you cast the spell, choose a point you can see within range. A bolt of lightning flashes down from the cloud to that point. Each creature wilhin 5 feet of that point must make a Dexterity saving throw. A creature takes 3d 10 lightning damage on a failed save, or half as much damage on a successful one. On each of your turns until the spell ends, 
+you can use your action to call down lightning in this way again, targeting the same point or a different one.
+lf you are outdoors in stormy conditions when you casl this spell, the spell gives you control over the existing storm instead of creating a new one. 
+Under such conditions, the spell's damage increases by 1d 10.
+At Higher Levels. When you cast this spell using a spell slot of 4th or higher level, the damage increases by 1dlO for each spell level above 3rd.
+
+PLANT GROWTH
+3rd-level transmutation
+Casting Time: 1 action or 8 hours 
+Range: 150 feet
+Components: V,S
+Duration: lnstantaneous
+This spell channels vitality into plants within a specific area. There are two possible uses for the spell, granting either immediate or long-term benefits.
+If you cast this spell using 1 action, choose a point within range. All normal plants in a 100-foot radius centered on that point become thick and overgrown. 
+A creature moving through the area must spend 4 feet of movement for every 1 foot it moves.
+You can exclude one or more areas of any size within the spell's area from being affected.
+If you cast this spell over 8 hours, you enrich the land. All plants in a half-mile radius centered on a point within range become enriched for 1 year. 
+The plants yield twice the normal amount of food when harvested.
+
+SLEET STORM
+3rd-/evel conjuration
+Casting Time: 1 action
+Range: 150 feet
+Components: V, S, M (a pinch of dust and a few drops of water)
+Duration: Concentration, up to 1 minute
+Until the spell ends, freezing rain and sleet fall in a 20-foot-tall cylinder with a 40-foot radius centered on a point you choose within range. 
+The area is heavily obscured, and exposed flames in the area are doused.
+The ground in the area is covered with slick ice, making it difficult terrain. 
+When a creature enters the spell's area for the first time on aturo or starts its turo there, it must make a Dexterity saving throw. On a failed save, it falls prone.
+If a creature is concentrating in the spell's area, the creature must make a successful Constitution saving throw against your spell save DC or lose concentration.
+
+WINDWALL
+3rd-/evel evocation
+Casting Time: 1 action
+Range: 120 feet
+Components: V,S, M (a tiny fan and a feather of exotic origin)
+Duration: Concentration, up to 1 minute
+A wall of strong wind rises from the ground at a point you choose within range. 
+You can make the wall up to 50 feet long, 15 feet high, and 1 foot thick. Vou can shape the wall in any way you choose so long as it makes one continuous path along the ground. 
+The wall lasts for the duration.
+When the wall appears, each creature within its area must make a Strength saving throw. 
+A creature takes 3d8 bludgeoning damage on a failed save, or half as much damage on a successful one.
+The strong wind keeps fog, smoke, and other gases at bay. Small or smaller flying creatures or objects can't pass through the wall. 
+Loose, lightweight materiais brought into the wall fly upward. Arrows, bolts, and other ordinary projectiles launched at targets behind
+the wall are deflected upward and automatically miss. (Boulders hurled by giants or siege engines, and similar projectiles, are unaffected.) 
+Creatures in gaseous form can't pass through it.
