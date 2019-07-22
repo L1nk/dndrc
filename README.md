@@ -7,6 +7,30 @@ use the same format for character sheet file as other `*.dnd` files
 
 run by entering the command and the character name in the same line
 
+Installation:
+
+Add the following to your .bashrc
+
+```
+dndrc_path="/path/to/dndrc"
+
+function dnd() {
+        echo "Applying dndrc..."
+        source $dndrc_path/.dndrc
+        cd $dndrc_path/$1
+        if [ ! -z "$2" ]
+        then
+                echo "Booting up $1's $2"
+                $2 $1
+        fi
+}
+
+```
+
+activate dndrc via command dnd. example
+
+`dnd Podhl stats`
+
 Commands:
 
 `abs` - List character's abilities
