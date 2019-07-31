@@ -54,7 +54,6 @@ Range: Touch
 Components: V, S, M (a drop of bitumen and a spider) 
 Duration: Concentration, up to I hour
 Until the spell ends, one willing creature you touch gains the ability to move up, down, and across vertical surfaces and upside down along ceilings, while leaving its hands free. 
-
 The target also gains a c1imbing speed equal to its walking speed.
 
 CURE WOUNDS
@@ -65,6 +64,16 @@ Components: V,S
 Duration: Instantaneous
 A creature you touch regains a number of hit points equal to 1d8 +your spellcasting ability modifier. This spell has no effect on undead or constructs.
 At Higher Leveis. When you cast this spell using a spell slot of 2nd levei or higher, the healing increases by 1d8 for each slot level above 1st.
+
+HEALING WORD
+1st-level evocation
+Casting Time: 1 bonus action 
+Range: 60 feet
+Components: V
+Duration: Instantaneous
+A creature of your choice that you can see within range regains hit points equal to 1d4 + your spellcasting ability modifier. 
+This spell has no effect on undead or constructs.
+At Higher Leveis. When you cast this spell using a spell slot of 2nd levei or higher, lhe healing increases by ld4 for each slot level above 1st.
 
 THUNDERWAVE
 1st-leveI evocation
@@ -143,7 +152,8 @@ ENHANCE ABILITY
 2nd-leveI transmutation
 Casting Time: 1 action
 Range: Touch
-Components: V,5,M(fur or a feather from a beast) Duration: Concentration, up to 1 hour.
+Components: V,5,M(fur or a feather from a beast) 
+Duration: Concentration, up to 1 hour.
 You touch a creature and bestow upon it a magical enhancement. Choose one of the following effects; the target gains that effect until the spell ends.
 - Bear's Endurance. The target has advantage on Constitution checks. lt also gains 2d6 temporary hit points, which are lost when the spell ends.
 - Bull's Strength. The target has advantage on Strength checks, and his or her carrying capacity doubles.
@@ -181,7 +191,7 @@ If you cast this spell over 8 hours, you enrich the land. All plants in a half-m
 The plants yield twice the normal amount of food when harvested.
 
 SLEET STORM
-3rd-/evel conjuration
+3rd-level conjuration
 Casting Time: 1 action
 Range: 150 feet
 Components: V, S, M (a pinch of dust and a few drops of water)
@@ -189,11 +199,11 @@ Duration: Concentration, up to 1 minute
 Until the spell ends, freezing rain and sleet fall in a 20-foot-tall cylinder with a 40-foot radius centered on a point you choose within range. 
 The area is heavily obscured, and exposed flames in the area are doused.
 The ground in the area is covered with slick ice, making it difficult terrain. 
-When a creature enters the spell's area for the first time on aturo or starts its turo there, it must make a Dexterity saving throw. On a failed save, it falls prone.
+When a creature enters the spell's area for the first time on a turn or starts its turn there, it must make a Dexterity saving throw. On a failed save, it falls prone.
 If a creature is concentrating in the spell's area, the creature must make a successful Constitution saving throw against your spell save DC or lose concentration.
 
 WINDWALL
-3rd-/evel evocation
+3rd-level evocation
 Casting Time: 1 action
 Range: 120 feet
 Components: V,S, M (a tiny fan and a feather of exotic origin)

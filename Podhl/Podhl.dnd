@@ -1,8 +1,8 @@
 Podhl Titanbark
 
 -- Stats --
->echo "> Lvl        5"
->echo "> XP         6500"
+>echo "> Lvl        5 (Inspired)"
+>echo "> XP         7275"
 >echo "> HP         `cat currentHealth`/`cat totalHealth`"
 >echo "> Str        `cat strength`+1 (Trait)     `printModifier $(echo $(( $(cat strength) + 1 )) )`"
 >echo "> Dex        `cat dexterity`               `printModifier $(echo $(( $(cat dexterity) )) )`"
@@ -126,7 +126,7 @@ Notes:
    + 1 - Cure Wounds
    + 2 - Thunderwave
    + 3 - Entangle
-   + 4 - Faerie Fire
+   + 4 - Healing Word
  + 2nd Level
    + 1 - Moonbeam
    + 2 - Flaming Sphere
@@ -134,12 +134,13 @@ Notes:
  + 3rd Level
    + 1 - Sleet Storm
    + 2 - Wind Wall
--- Starting Equipment --
-[ 114 G 26 S
+-- Equipment --
+[ 42 G 26 S
 [ Wooden Sword 1d4 Bludgeoning
 [ Wooden Shield +2 AC
 [ Dart 1d4 Piercing Finesse, thrown (20/60)
 [ Hide Armor    12 AC + Dex
+[ Stone of Good Luck (Attunement) +1 ability check & saving throws
 [ Druidic Focus    Joint Filter Tip made of Holly
 | Explorer's Pack
   [ Backpack
@@ -151,10 +152,11 @@ Notes:
   [ Waterskin
   [ Hemp Rope 50ft
 [ Herbalism Kit
+[ Token of Meshkovia
 [ A glass orb filled with water in which swims a clockwork goldfish.
 [ Cook's Tools
 [ Tattered Book
-[ 1 potion of healing 10hp
+[ 5 potion of healing 10hp
 [ Potion of Growth
 [ quaal's feather token - Tree. You must be outdoors to use this token. You can use an action to touch it to an unoccupied space on the ground. The token disappears, and in its place a nonmagical oak tree springs into existence. The tree is 60 feet tall and has a 5-foot-diameter trunk, and its branches at the top spread out in a 20-foot radius.
 [ small aeon crystal x1
