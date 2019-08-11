@@ -50,6 +50,46 @@ function printModifier() {
 
 }
 
+function session() {
+	touch $1
+	echo "$1" > currentSession
+}
+
+function dealDamage() {
+	character=`cat ../currentCharacter`
+        log="$character deals $1 $2 damage to $3."
+        currentSession=`cat currentSession`
+        echo "$log" >> $currentSession
+        combat $character
+}
+
+function takeDamage() {
+	character=`cat ../currentCharacter`
+	currentHealth=`cat currentHealth`
+	currentHealth=`expr $currentHealth - $1`
+	echo "$currentHealth" > currentHealth
+	log="$character takes $1 $2 damage."
+	currentSession=`cat currentSession`
+	echo "$log" >> $currentSession
+	stats $character
+}
+
+function heal() {
+	character=`cat ../currentCharacter`
+        currentHealth=`cat currentHealth`
+        currentHealth=`expr $currentHealth + $1`
+        echo "$currentHealth" > currentHealth
+        log="$character regenerates $1 health from $2."
+        currentSession=`cat currentSession`
+        echo "$log" >> $currentSession
+	stats $character
+}
+
+function log() {
+	currentSession=`cat currentSession`
+	echo "$1" > $currentSession
+}
+
 cat << "EOF"
 
 /***

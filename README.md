@@ -17,14 +17,16 @@ dndrc_path="/path/to/dndrc"
 function dnd() {
         echo "Applying dndrc..."
         source $dndrc_path/.dndrc
-        cd $dndrc_path/$1
+        cd $dndrc_path
+        echo "Setting $1 as current character..."
+        currentCharacter >> $1
+        cd $1
         if [ ! -z "$2" ]
         then
                 echo "Booting up $1's $2"
                 $2 $1
         fi
 }
-
 ```
 
 activate dndrc via command dnd. example
