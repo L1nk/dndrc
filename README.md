@@ -14,12 +14,13 @@ Add the following to your .bashrc
 ```
 dndrc_path="/path/to/dndrc"
 
+
 function dnd() {
         echo "Applying dndrc..."
         source $dndrc_path/.dndrc
         cd $dndrc_path
         echo "Setting $1 as current character..."
-        currentCharacter >> $1
+        echo "$1" > currentCharacter
         cd $1
         if [ ! -z "$2" ]
         then
