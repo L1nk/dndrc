@@ -2,15 +2,17 @@ Podhl Titanbark
 
 -- Stats --
 >echo "> Lvl        5 (Inspired)"
->echo "> XP         7275"
+>echo "> XP         8025"
 >echo "> HP         `cat currentHealth`/`cat totalHealth`"
 >echo "> Str        `cat strength`+1 (Trait)     `printModifier $(echo $(( $(cat strength) + 1 )) )`"
 >echo "> Dex        `cat dexterity`               `printModifier $(echo $(( $(cat dexterity) )) )`"
 >echo "> Con        `cat constitution`               `printModifier $(echo $(( $(cat constitution) )) )`"
 >echo "> Int        `cat intelligence`               `printModifier $(echo $(( $(cat intelligence) )) )`"
 >echo "> Wis        `cat wisdom`+2 (Trait)     `printModifier $(echo $(( $(cat wisdom) + 2 )) )`"
->echo "> Cha        `cat charisma`               `printModifier $(echo $(( $(cat charisma) )) )`"
+>echo "> Cha         `cat charisma`               `printModifier $(echo $(( $(cat charisma) )) )`"
 >echo "> Prof       +`cat proficiency`"
+>echo "> Practice   4/15 Cook's Tools"
+>echo "> Wild Shape 2/2"
 >echo "> Age        100"
 >echo "> Alignment  Chaotic Good"
 >echo "> Size       10ft 5in; 600lbs; Medium"
@@ -61,7 +63,7 @@ Notes:
   ~ Life of Seclusion
     ~ Reluctant exile, accidentally burnt down the house of the clan leaders while smoking some herbs
   ~ Discovery
-    ~ ???
+    ~ Ancient order exists pre tower deities. The nameless ones.
   ~ Personality Trait
     ~ I am utterly serene, even in the face of disaster
   ~ Ideal
@@ -102,9 +104,10 @@ Notes:
 * -1 Deception, Intimidation, Performance
 
 -- Abilities --
++ Companion: San-san the blink dog
 + Mark of Kalidar
 + Circle of the Land
-+ Spell Slot Recovery - Short rest; x <  [ (1/2) * currentLevel ]
++ Spell Slot Recovery - Short rest; x <  { (1/2) * currentLevel }
 + Firbolg Magic (use Wisdom)
  + Detect Magic
  + Disguise Self - can appear 3ft shorter
@@ -114,7 +117,7 @@ Notes:
 + Cantrip(s): 
  + 1 - Thorn Whip
  + 2 - Shillelagh
- + 3 - Resistance [Bonus from Circle]
+ + 3 - Resistance {Bonus from Circle}
  + 4 - Poison Spray
 + Spell(s)
  + Circle Spell (Forest)
@@ -132,10 +135,10 @@ Notes:
    + 2 - Flaming Sphere
    + 3 - Enhance Ability
  + 3rd Level
-   + 1 - Sleet Storm
+   + 1 - Conjure Animals
    + 2 - Wind Wall
 -- Equipment --
-[ 42 G 26 S
+[ 41 G 26 S
 [ Wooden Sword 1d4 Bludgeoning
 [ Wooden Shield +2 AC
 [ Dart 1d4 Piercing Finesse, thrown (20/60)
@@ -157,6 +160,7 @@ Notes:
 [ Cook's Tools
 [ Tattered Book
 [ 5 potion of healing 10hp
+[ Potion of Fire Breath
 [ Potion of Growth
 [ quaal's feather token - Tree. You must be outdoors to use this token. You can use an action to touch it to an unoccupied space on the ground. The token disappears, and in its place a nonmagical oak tree springs into existence. The tree is 60 feet tall and has a 5-foot-diameter trunk, and its branches at the top spread out in a 20-foot radius.
 [ small aeon crystal x1

@@ -87,7 +87,7 @@ function heal() {
 
 function log() {
 	currentSession=`cat currentSession`
-	echo "$1" > $currentSession
+	echo "$1" >> $currentSession
 }
 
 cat << "EOF"
