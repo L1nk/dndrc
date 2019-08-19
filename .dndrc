@@ -146,6 +146,15 @@ function roll() {
 	log $log
 }
 
+function longRest() {
+	character=`cat ../currentCharacter`
+	echo `cat totalSpellSlots_1` > currentSpellSlots_1
+	echo `cat totalSpellSlots_2` > currentSpellSlots_2
+	echo `cat totalSpellSlots_3` > currentSpellSlots_3
+	echo `cat totalHealth` > currentHealth
+	log "$character takes a long rest. Health and spell slots fully restored. Half of hit die restored."
+}
+
 cat << "EOF"
 
 /***
