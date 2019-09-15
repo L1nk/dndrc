@@ -2,7 +2,7 @@ Podhl Titanbark
 
 -- Stats --
 >echo "> Lvl        5 (Inspired)"
->echo "> XP         8025"
+>echo "> XP         8975"
 >echo "> HP         `cat currentHealth`/`cat totalHealth`"
 >echo "> Str        `cat strength`+1 (Trait)     `printModifier $(echo $(( $(cat strength) + 1 )) )`"
 >echo "> Dex        `cat dexterity`               `printModifier $(echo $(( $(cat dexterity) )) )`"
