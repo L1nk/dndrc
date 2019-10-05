@@ -2,7 +2,7 @@ Podhl Titanbark
 
 -- Stats --
 >echo "> Lvl        5 (Inspired)"
->echo "> XP         8975"
+>echo "> XP         10350"
 >echo "> HP         `cat currentHealth`/`cat totalHealth`"
 >echo "> Str        `cat strength`+1 (Trait)     `printModifier $(echo $(( $(cat strength) + 1 )) )`"
 >echo "> Dex        `cat dexterity`               `printModifier $(echo $(( $(cat dexterity) )) )`"
@@ -18,6 +18,7 @@ Podhl Titanbark
 >echo "> Size       10ft 5in; 600lbs; Medium"
 >echo "> Speed      30ft"
 >echo "> Hit Die    d8"
+>echo "> Heal Dice   4/5"
 
 -- Combat --
 <echo "< AC                                                                            $(( $(cat armorAC) + `getModifier $(echo $(( $(cat dexterity) )) )` + 2 ))"
@@ -27,9 +28,9 @@ Podhl Titanbark
 <echo "< Attack Modifier to hit (Dart)            Strength/Dexterity + Proficiency     `printModifier $(echo $(( $(cat strength) + 1 )) )`/`printModifier $(echo $(( $(cat dexterity) )) )` + `cat proficiency`"
 <echo "< Spell Modifier                           Proficiency + Wisdom                 $(( $(cat proficiency) + `getModifier $(echo $(( $(cat wisdom) )) )` ))"
 <echo "< Spell Save DC                            8 + Proficiency + Wisdom             $(( 8 + $(cat proficiency) + `getModifier $(echo $(( $(cat wisdom) + 2  )) )` ))"
-<echo "< Spell Slots                              Lvl 1: 4/4" 
-<echo "<                                          Lvl 2: 3/3"
-<echo "<                                          Lvl 3: 2/2"
+<echo "< Spell Slots                              Lvl 1: `cat currentSpellSlots_1`/`cat totalSpellSlots_1`" 
+<echo "<                                          Lvl 2: `cat currentSpellSlots_2`/`cat totalSpellSlots_2`"
+<echo "<                                          Lvl 3: `cat currentSpellSlots_3`/`cat totalSpellSlots_3`"
 
 Notes:
 : 
@@ -73,13 +74,14 @@ Notes:
   ~ Flaw
     ~ I enjoy the delights of the world a little too much. namely the herbs
 
--- Proficiencies -- 
+-- Proficiencies --
+* +1 to all via Stone of Good Luck
 * Skill (Background)
- * Medicine +7
- * Religion +2
+ * Medicine +8
+ * Religion +3
 * Skill
- * Survival +7
- * Perception +7
+ * Survival +8
+ * Perception +8
  * Persuasion +1
 * Armor
  * Light

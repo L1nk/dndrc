@@ -90,6 +90,71 @@ function log() {
 	echo "$1" >> $currentSession
 }
 
+function roll() {
+	character=`cat ../currentCharacter`
+	dice=$1
+	ability=$2
+	proficiencies=`cat proficiencies`
+	bonuses=$( cat bonuses | tr ";" "\n")
+
+	case $ability in
+		athletics)
+			modifier="`printModifier $(echo $(( $(cat strength) + 1 )) )` strength"
+			;;
+		acrobatics|"sleight of hand"|stealth|initiative)
+                        modifier="`printModifier $(echo $(( $(cat dexterity) )) )` dexterity"
+			;;
+		arcana|history|investigation|nature|religion|intelligence)
+			modifier="`printModifier $(echo $(( $(cat intelligence) )) )` intelligence"
+			;;
+		"animal handling"|insight|medicine|perception|survival)
+			modifier="`printModifier $(echo $(( $(cat wisdom) + 2 )) )` wisdom"
+			;;
+		deception|intimidation|persuasion|performance)
+			modifier="`printModifier $(echo $(( $(cat charisma) )) )` charisma"
+			;;
+		constitution)
+			modifier="`printModifier $(echo $(( $(cat constitution) )) )` constitution"
+			;;
+		*)
+			echo "Invalid skill. Please check with your DM and/or Player's Handbook."
+			;;
+	esac
+
+	if [[ $proficiencies == *$ability* ]] 
+	then
+		prof="+`cat proficiency` with proficiency"
+	else
+		prof="without proficiency"
+	fi
+
+	helpers=""	
+
+	for bonus in $bonuses
+	do
+		helpers="$helpers $bonus"
+	done
+
+	if [[ $ability == "persuasion" ]]
+	then
+		mod=`cat persuasionModifier`
+		log="$character rolls $1 $modifier modifier$helpers $prof $mod for a(n) $2 ability check."
+	else
+		log="$character rolls $1 $modifier modifier$helpers $prof for a(n) $2 ability check."
+	fi	
+
+	log $log
+}
+
+function longRest() {
+	character=`cat ../currentCharacter`
+	echo `cat totalSpellSlots_1` > currentSpellSlots_1
+	echo `cat totalSpellSlots_2` > currentSpellSlots_2
+	echo `cat totalSpellSlots_3` > currentSpellSlots_3
+	echo `cat totalHealth` > currentHealth
+	log "$character takes a long rest. Health and spell slots fully restored. Half of hit die restored."
+}
+
 cat << "EOF"
 
 /***
