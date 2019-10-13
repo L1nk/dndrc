@@ -2,7 +2,7 @@ Podhl Titanbark
 
 -- Stats --
 >echo "> Lvl        5 (Inspired)"
->echo "> XP         10350"
+>echo "> XP         12850"
 >echo "> HP         `cat currentHealth`/`cat totalHealth`"
 >echo "> Str        `cat strength`+1 (Trait)     `printModifier $(echo $(( $(cat strength) + 1 )) )`"
 >echo "> Dex        `cat dexterity`               `printModifier $(echo $(( $(cat dexterity) )) )`"
@@ -11,14 +11,14 @@ Podhl Titanbark
 >echo "> Wis        `cat wisdom`+2 (Trait)     `printModifier $(echo $(( $(cat wisdom) + 2 )) )`"
 >echo "> Cha         `cat charisma`               `printModifier $(echo $(( $(cat charisma) )) )`"
 >echo "> Prof       +`cat proficiency`"
->echo "> Practice   4/15 Cook's Tools"
+>echo "> Practice   5/15 Cook's Tools"
 >echo "> Wild Shape 2/2"
 >echo "> Age        100"
 >echo "> Alignment  Chaotic Good"
 >echo "> Size       10ft 5in; 600lbs; Medium"
 >echo "> Speed      30ft"
 >echo "> Hit Die    d8"
->echo "> Heal Dice   4/5"
+>echo "> Heal Dice   2/5"
 
 -- Combat --
 <echo "< AC                                                                            $(( $(cat armorAC) + `getModifier $(echo $(( $(cat dexterity) )) )` + 2 ))"
@@ -140,7 +140,7 @@ Notes:
    + 1 - Conjure Animals
    + 2 - Wind Wall
 -- Equipment --
-[ 41 G 26 S
+[ 191 G 26 S
 [ Wooden Sword 1d4 Bludgeoning
 [ Wooden Shield +2 AC
 [ Dart 1d4 Piercing Finesse, thrown (20/60)
@@ -168,3 +168,6 @@ Notes:
 [ small aeon crystal x1
 [ crown crystal shard x1
 [ water dowsing rods
+[ 1 wheel of cheese
+[ 6 poison vials
+[ 3 healing potion ingredients (25gp per potion)

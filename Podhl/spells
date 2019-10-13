@@ -72,19 +72,23 @@ Components: V
 Duration: Instantaneous
 A creature of your choice that you can see within range regains hit points equal to 1d4 + your spellcasting ability modifier. 
 This spell has no effect on undead or constructs.
-At Higher Leveis. When you cast this spell using a spell slot of 2nd levei or higher, lhe healing increases by ld4 for each slot level above 1st.
+At Higher Levels. When you cast this spell using a spell slot of 2nd level or higher, lhe healing increases by ld4 for each slot level above 1st.
 
 THUNDERWAVE
 1st-leveI evocation
 Casting Time: 1 action Range: Self (15-foot cube)
 Compnents: V,S 
 Duration: Instantaneous
-A wave of thunderous force sweeps out from you. Each creature in a 15-foot cube originating from you must make a Constitution saving throw. On a failed save, a creature takes 2d8 thunder damage and is 
-pushed 10 feet away from you. On a sueeessful save, the creature takes half as much damage and isn't pushed.
-In addition, unsecured objeets that are completely within the area of effeet are automatically pushed 10 feet away from you by the spell's effeet, 
-and the spell emits a thunderous boom audible out to 300 feet.
-At Higher LeveIs. When you east this spell using a spell slot of 2nd level or higher, the damage inereases by
-ld8 for eaeh slot level above 1st.
+A wave of thunderous force sweeps out from you. 
+Each creature in a 15-foot cube originating from you must make a Constitution saving throw. 
+On a failed save, a creature takes 2d8 thunder damage and is pushed 10 feet away from you. 
+On a successful save, the creature takes half as much damage and isn't pushed.
+In addition, unsecured objeets that are completely within the area of effeet are 
+automatically pushed 10 feet away from you by the spell's effect, and the spell emits a 
+thunderous boom audible out to 300 feet.
+At Higher Levels. 
+When you east this spell using a spell slot of 2nd level or higher, the damage increases by
+1d8 for each slot level above 1st.
 
 FOG CLOUD
 1st-level conjuration
@@ -208,7 +212,8 @@ Range: 120 feet
 Components: V,S, M (a tiny fan and a feather of exotic origin)
 Duration: Concentration, up to 1 minute
 A wall of strong wind rises from the ground at a point you choose within range. 
-You can make the wall up to 50 feet long, 15 feet high, and 1 foot thick. Vou can shape the wall in any way you choose so long as it makes one continuous path along the ground. 
+You can make the wall up to 50 feet long, 15 feet high, and 1 foot thick. 
+You can shape the wall in any way you choose so long as it makes one continuous path along the ground. 
 The wall lasts for the duration.
 When the wall appears, each creature within its area must make a Strength saving throw. 
 A creature takes 3d8 bludgeoning damage on a failed save, or half as much damage on a successful one.
@@ -218,7 +223,7 @@ the wall are deflected upward and automatically miss. (Boulders hurled by giants
 Creatures in gaseous form can't pass through it.
 
 CONJURE ANIMALS
-3rd-/evel eonjuratioll
+3rd-level conjuration
 Casting Time: 1 action
 Range: 60 feet
 Components: V,S

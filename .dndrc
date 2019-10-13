@@ -101,13 +101,13 @@ function roll() {
 		athletics)
 			modifier="`printModifier $(echo $(( $(cat strength) + 1 )) )` strength"
 			;;
-		acrobatics|"sleight of hand"|stealth|initiative)
+		attack|acrobatics|"sleight of hand"|stealth|initiative)
                         modifier="`printModifier $(echo $(( $(cat dexterity) )) )` dexterity"
 			;;
 		arcana|history|investigation|nature|religion|intelligence)
 			modifier="`printModifier $(echo $(( $(cat intelligence) )) )` intelligence"
 			;;
-		"animal handling"|insight|medicine|perception|survival)
+		"spell attack"|"animal handling"|insight|medicine|perception|survival)
 			modifier="`printModifier $(echo $(( $(cat wisdom) + 2 )) )` wisdom"
 			;;
 		deception|intimidation|persuasion|performance)
