@@ -98,19 +98,19 @@ function roll() {
 	bonuses=$( cat bonuses | tr ";" "\n")
 
 	case $ability in
-		athletics)
+		athletics|strength)
 			modifier="`printModifier $(echo $(( $(cat strength) + 1 )) )` strength"
 			;;
-		attack|acrobatics|"sleight of hand"|stealth|initiative)
+		attack|acrobatics|"sleight of hand"|stealth|initiative|dexterity)
                         modifier="`printModifier $(echo $(( $(cat dexterity) )) )` dexterity"
 			;;
 		arcana|history|investigation|nature|religion|intelligence)
 			modifier="`printModifier $(echo $(( $(cat intelligence) )) )` intelligence"
 			;;
-		"spell attack"|"animal handling"|insight|medicine|perception|survival)
+		"spell attack"|"animal handling"|insight|medicine|perception|survival|wisdom)
 			modifier="`printModifier $(echo $(( $(cat wisdom) + 2 )) )` wisdom"
 			;;
-		deception|intimidation|persuasion|performance)
+		deception|intimidation|persuasion|performance|charisma)
 			modifier="`printModifier $(echo $(( $(cat charisma) )) )` charisma"
 			;;
 		constitution)
