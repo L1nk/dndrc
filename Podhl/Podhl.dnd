@@ -11,7 +11,7 @@ Podhl Titanbark
 >echo "> Wis        `cat wisdom`+2 (Trait)     `printModifier $(echo $(( $(cat wisdom) + 2 )) )`"
 >echo "> Cha         `cat charisma`               `printModifier $(echo $(( $(cat charisma) )) )`"
 >echo "> Prof       +`cat proficiency`"
->echo "> Practice   5/15 Cook's Tools"
+>echo "> Practice   6/15 Cook's Tools"
 >echo "> Wild Shape 2/2"
 >echo "> Age        100"
 >echo "> Alignment  Chaotic Good"
@@ -161,7 +161,7 @@ Notes:
 [ A glass orb filled with water in which swims a clockwork goldfish.
 [ Cook's Tools
 [ Tattered Book
-[ 5 potion of healing 10hp
+[ 3 potion of healing 10hp
 [ Potion of Fire Breath
 [ Potion of Growth
 [ quaal's feather token - Tree. You must be outdoors to use this token. You can use an action to touch it to an unoccupied space on the ground. The token disappears, and in its place a nonmagical oak tree springs into existence. The tree is 60 feet tall and has a 5-foot-diameter trunk, and its branches at the top spread out in a 20-foot radius.
