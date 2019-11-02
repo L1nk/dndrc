@@ -4,8 +4,9 @@ Casting Time: 1 action
 Range: Touch
 Components:V,S,M (a miniature cloak) 
 Duration: Concentration, up to 1 minute
-You touch one willing creature. Once before the spell ends, the target can roll a d4 and add the number rolled to one saving throw of its choice. It can roll
-the die before or after making the saving throw. The spell then ends.
+You touch one willing creature. 
+Once before the spell ends, the target can roll a d4 and add the number rolled to one saving throw of its choice. 
+It can roll the die before or after making the saving throw. The spell then ends.
 
 SHILLELAGH
 Transmutation cantrip
@@ -13,8 +14,11 @@ Casting Time: 1 bonus action
 Range: Touch
 Components: V,S, M(mistletoe, a shamrock leaf, and a c1ub or quarterstaff) 
 Duration: 1 minute
-The wood of a c1ub or quarterstaff you are holding is imbued with nature's power. For the duration, you can use your spellcasting ability instead of Strength for the attack and damage rolls of melee 
-attacks using that weapon, and the weapon's damage die becomes a d8. The weapon also becomes magical, if it isn't already. The spell ends if you cast it again or if you let go of the weapon.
+The wood of a club or quarterstaff you are holding is imbued with nature's power. 
+For the duration, you can use your spellcasting ability instead of Strength for the attack and damage rolls of melee attacks using that weapon, 
+and the weapon's damage die becomes a d8. 
+The weapon also becomes magical, if it isn't already. 
+The spell ends if you cast it again or if you let go of the weapon.
 
 THORN WHIP
 Transmutation cantrip
@@ -43,8 +47,8 @@ Casting Time: 1 action
 Range: Touch
 Components: V,5, M (a handful of oak bark) 
 Duration: Concentration, up to 1 hour
-You touch a willing creature. Until the spel1 ends, the target's skin has a rough, bark-like appearance, 
-and the target's AC can't be less than 16, regardless ofwhat kind of armar it is wearing.
+You touch a willing creature. 
+Until the spel1 ends, the target's skin has a rough, bark-like appearance, and the target's AC can't be less than 16, regardless of what kind of armar it is wearing.
 
 SPIDER CLIMB
 2nd-level transmutation
@@ -53,7 +57,7 @@ Range: Touch
 Components: V, S, M (a drop of bitumen and a spider) 
 Duration: Concentration, up to I hour
 Until the spell ends, one willing creature you touch gains the ability to move up, down, and across vertical surfaces and upside down along ceilings, while leaving its hands free. 
-The target also gains a c1imbing speed equal to its walking speed.
+The target also gains a climbing speed equal to its walking speed.
 
 CURE WOUNDS
 1st-level evocation
@@ -61,8 +65,10 @@ Casting Time: 1 action
 Range: Touch 
 Components: V,S 
 Duration: Instantaneous
-A creature you touch regains a number of hit points equal to 1d8 +your spellcasting ability modifier. This spell has no effect on undead or constructs.
-At Higher Leveis. When you cast this spell using a spell slot of 2nd levei or higher, the healing increases by 1d8 for each slot level above 1st.
+A creature you touch regains a number of hit points equal to 1d8 + your spellcasting ability modifier. 
+This spell has no effect on undead or constructs.
+At Higher Levels. 
+When you cast this spell using a spell slot of 2nd levei or higher, the healing increases by 1d8 for each slot level above 1st.
 
 HEALING WORD
 1st-level evocation
@@ -111,7 +117,7 @@ a Dexterity saving throw. For the duration, objects and affected creatures shed 
 Any attack roll against an affected creature or object has advantage if the attacker can see it, and the affected creature or object can't benefit from being invisible.
 
 ENTANGLE
-1st.level conjuration
+1st-level conjuration
 Casting Time: 1 action
 Range: 90 feet
 Components: V,S
@@ -123,7 +129,7 @@ A creature restrained by the plants can use its action to make a Strength check 
 When the spell ends, the conjured plants wilt away.
 
 MOONBEAM
-2nd-leveI evocation
+2nd-level evocation
 Casting Time: I action
 Range: 120 feet
 Components:V,5,M(several seeds of any moonseed plant and a piece of opalescent feldspar) 
@@ -138,7 +144,7 @@ At Higher Levels. When you cast this spell using a spell slot of 3rd levei or hi
 1d10 for each slot level above 2nd.
 
 FLAMING SPHERE
-2nd-levei conjuration
+2nd-level conjuration
 Casting Time: 1 action
 Range: 60 feet
 Components: V or S, M (a bit of tallow, a pinch of brimstone, and a dusting of powdered iron) 
@@ -241,6 +247,19 @@ Roll initiative for the summoned creatures as a group, which has its own turns.
 They obey any verbal commands that you issue to them (no action required by you). 
 If you don't issue any commands to them, they defend themselves from hostile creatures, but otherwise take no actions.
 The DM has the creatures' statistics.
-At Higher Levels. When you cast this spell using
-certain higher-Ievel spell slots, you choose one of the summoning options above, and more creatures appear: 
-twice as many with a 5th-levei slot, three times as many with a 7th-level slot. and four times as many with a 9th-level slot.
+At Higher Levels. When you cast this spell using certain higher-level spell slots, you choose one of the summoning options above, and more creatures appear: 
+twice as many with a 5th-level slot, three times as many with a 7th-level slot, and four times as many with a 9th-level slot.
+
+DISPEL MAGIC
+3rd-level abjuration
+Casting Time: 1 action 
+Range: 120 feet 
+Components: V,S 
+Duration: Instantaneous
+Choose one creature, object, or magical effect within range. Any spell of 3rd level or lower on the target ends. 
+For each spell of 4th level or higher on the target. make an ability check using your spellcasting ability. The DC equals 10 + the spell's level. 
+On a successful check, the spell ends.
+At Higher Levels. 
+When you cast this spell using a spell slot of 4th level or higher, you automatically end the effects of a spell on the target 
+if the spell's level is equal to or less than the level of the spell slot you used.
+

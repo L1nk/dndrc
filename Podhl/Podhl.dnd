@@ -1,8 +1,8 @@
 Podhl Titanbark
 
 -- Stats --
->echo "> Lvl        5 (Inspired)"
->echo "> XP         12850"
+>echo "> Lvl        6 (Inspired)"
+>echo "> XP         17450"
 >echo "> HP         `cat currentHealth`/`cat totalHealth`"
 >echo "> Str        `cat strength`+1 (Trait)     `printModifier $(echo $(( $(cat strength) + 1 )) )`"
 >echo "> Dex        `cat dexterity`               `printModifier $(echo $(( $(cat dexterity) )) )`"
@@ -18,7 +18,7 @@ Podhl Titanbark
 >echo "> Size       10ft 5in; 600lbs; Medium"
 >echo "> Speed      30ft"
 >echo "> Hit Die    d8"
->echo "> Heal Dice   2/5"
+>echo "> Heal Dice   6/6"
 
 -- Combat --
 <echo "< AC                                                                            $(( $(cat armorAC) + `getModifier $(echo $(( $(cat dexterity) )) )` + 2 ))"
@@ -109,6 +109,7 @@ Notes:
 + Companion: San-san the blink dog
 + Mark of Kalidar
 + Circle of the Land
+  + Land's Stride (6th lvl) Adv on saving throws against magic plants; no difficult terrain
 + Spell Slot Recovery - Short rest; x <  { (1/2) * currentLevel }
 + Firbolg Magic (use Wisdom)
  + Detect Magic
@@ -139,15 +140,16 @@ Notes:
  + 3rd Level
    + 1 - Conjure Animals
    + 2 - Wind Wall
+   + 3 - Dispel Magic
 -- Equipment --
-[ 191 G 26 S
+[ 71 G 26 S
 [ Wooden Sword 1d4 Bludgeoning
 [ Wooden Shield +2 AC
 [ Dart 1d4 Piercing Finesse, thrown (20/60)
-[ Hide Armor    12 AC + Dex
+[ Green Dragon Hooded Tempered Darkwood Breastplate   14 AC + Dex
 [ Stone of Good Luck (Attunement) +1 ability check & saving throws
 [ Druidic Focus    Joint Filter Tip made of Holly
-| Explorer's Pack
+[ Explorer's Pack
   [ Backpack
   [ Bedroll
   [ Mess Kit
