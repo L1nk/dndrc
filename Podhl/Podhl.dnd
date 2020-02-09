@@ -1,8 +1,8 @@
 Podhl Titanbark
 
 -- Stats --
->echo "> Lvl        6 (Inspired)"
->echo "> XP         17450"
+>echo "> Lvl        6"
+>echo "> XP         19270"
 >echo "> HP         `cat currentHealth`/`cat totalHealth`"
 >echo "> Str        `cat strength`+1 (Trait)     `printModifier $(echo $(( $(cat strength) + 1 )) )`"
 >echo "> Dex        `cat dexterity`               `printModifier $(echo $(( $(cat dexterity) )) )`"
@@ -18,7 +18,7 @@ Podhl Titanbark
 >echo "> Size       10ft 5in; 600lbs; Medium"
 >echo "> Speed      30ft"
 >echo "> Hit Die    d8"
->echo "> Heal Dice   6/6"
+>echo "> Heal Dice   0/6"
 
 -- Combat --
 <echo "< AC                                                                            $(( $(cat armorAC) + `getModifier $(echo $(( $(cat dexterity) )) )` + 2 ))"
@@ -31,6 +31,7 @@ Podhl Titanbark
 <echo "< Spell Slots                              Lvl 1: `cat currentSpellSlots_1`/`cat totalSpellSlots_1`" 
 <echo "<                                          Lvl 2: `cat currentSpellSlots_2`/`cat totalSpellSlots_2`"
 <echo "<                                          Lvl 3: `cat currentSpellSlots_3`/`cat totalSpellSlots_3`"
+<echo "<                                          Lvl 4: `cat currentSpellSlots_4`/`cat totalSpellSlots_4`"
 
 Notes:
 : 
@@ -142,13 +143,14 @@ Notes:
    + 2 - Wind Wall
    + 3 - Dispel Magic
 -- Equipment --
-[ 71 G 26 S
+[ 181 G 26 S
 [ Wooden Sword 1d4 Bludgeoning
 [ Wooden Shield +2 AC
 [ Dart 1d4 Piercing Finesse, thrown (20/60)
 [ Green Dragon Hooded Tempered Darkwood Breastplate   14 AC + Dex
 [ Stone of Good Luck (Attunement) +1 ability check & saving throws
 [ Druidic Focus    Joint Filter Tip made of Holly
+[ Nature's Wrath
 [ Explorer's Pack
   [ Backpack
   [ Bedroll
@@ -163,7 +165,7 @@ Notes:
 [ A glass orb filled with water in which swims a clockwork goldfish.
 [ Cook's Tools
 [ Tattered Book
-[ 3 potion of healing 10hp
+[ 2 potion of healing 10hp
 [ Potion of Fire Breath
 [ Potion of Growth
 [ quaal's feather token - Tree. You must be outdoors to use this token. You can use an action to touch it to an unoccupied space on the ground. The token disappears, and in its place a nonmagical oak tree springs into existence. The tree is 60 feet tall and has a 5-foot-diameter trunk, and its branches at the top spread out in a 20-foot radius.

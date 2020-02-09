@@ -92,8 +92,8 @@ function log() {
 
 function roll() {
 	character=`cat ../currentCharacter`
-	dice=$1
-	ability=$2
+	dice=$2
+	ability=$1
 	proficiencies=`cat proficiencies`
 	bonuses=$( cat bonuses | tr ";" "\n")
 
@@ -138,9 +138,9 @@ function roll() {
 	if [[ $ability == "persuasion" ]]
 	then
 		mod=`cat persuasionModifier`
-		log="$character rolls $1 $modifier modifier$helpers $prof $mod for a(n) $2 ability check."
+		log="$character rolls $2 $modifier modifier$helpers $prof $mod for a(n) $1 ability check."
 	else
-		log="$character rolls $1 $modifier modifier$helpers $prof for a(n) $2 ability check."
+		log="$character rolls $2 $modifier modifier$helpers $prof for a(n) $1 ability check."
 	fi	
 
 	log $log
