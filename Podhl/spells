@@ -61,15 +61,17 @@ Range: Touch
 Components: V,5, M (a handful of oak bark) 
 Duration: Concentration, up to 1 hour
 You touch a willing creature. 
-Until the spel1 ends, the target's skin has a rough, bark-like appearance, and the target's AC can't be less than 16, regardless of what kind of armar it is wearing.
+Until the spell ends, the target's skin has a rough, bark-like appearance, 
+and the target's AC can't be less than 16, regardless of what kind of armar it is wearing.
 
 SPIDER CLIMB
 2nd-level transmutation
-Casting Time: I action
+Casting Time: 1 action
 Range: Touch
 Components: V, S, M (a drop of bitumen and a spider) 
-Duration: Concentration, up to I hour
-Until the spell ends, one willing creature you touch gains the ability to move up, down, and across vertical surfaces and upside down along ceilings, while leaving its hands free. 
+Duration: Concentration, up to 1 hour
+Until the spell ends, one willing creature you touch gains the ability to move up, down, and across vertical surfaces 
+and upside down along ceilings, while leaving its hands free. 
 The target also gains a climbing speed equal to its walking speed.
 
 CURE WOUNDS
@@ -91,20 +93,20 @@ Components: V
 Duration: Instantaneous
 A creature of your choice that you can see within range regains hit points equal to 1d4 + your spellcasting ability modifier. 
 This spell has no effect on undead or constructs.
-At Higher Levels. When you cast this spell using a spell slot of 2nd level or higher, lhe healing increases by ld4 for each slot level above 1st.
+At Higher Levels. 
+When you cast this spell using a spell slot of 2nd level or higher, the healing increases by ld4 for each slot level above 1st.
 
 THUNDERWAVE
 1st-leveI evocation
 Casting Time: 1 action Range: Self (15-foot cube)
-Compnents: V,S 
+Compnents: V, S 
 Duration: Instantaneous
 A wave of thunderous force sweeps out from you. 
 Each creature in a 15-foot cube originating from you must make a Constitution saving throw. 
 On a failed save, a creature takes 2d8 thunder damage and is pushed 10 feet away from you. 
 On a successful save, the creature takes half as much damage and isn't pushed.
-In addition, unsecured objeets that are completely within the area of effeet are 
-automatically pushed 10 feet away from you by the spell's effect, and the spell emits a 
-thunderous boom audible out to 300 feet.
+In addition, unsecured objeets that are completely within the area of effect are automatically pushed 10 feet away from you by the spell's effect, 
+and the spell emits a thunderous boom audible out to 300 feet.
 At Higher Levels. 
 When you east this spell using a spell slot of 2nd level or higher, the damage increases by
 1d8 for each slot level above 1st.
@@ -117,7 +119,8 @@ Components: V,S
 Duration: Concentration, up to 1 hour
 You create a 20-foot-radius sphere of fog centered on a point within range. The sphere spreads around corners, and its area is heavily obscured. 
 It lasts for the duration or until a wind of moderate or greater speed (at least 10 miles per hour) disperses it.
-At Higher LeveIs. When you cast this spell using a spell slot of 2nd levei or higher, the radius of the fog increases by 20 feet for each slot levei above 1st.
+At Higher Levels. 
+When you cast this spell using a spell slot of 2nd levei or higher, the radius of the fog increases by 20 feet for each slot level above 1st.
 
 FAERIE FIRE
 1st-level evocation
@@ -147,14 +150,15 @@ Casting Time: I action
 Range: 120 feet
 Components:V,5,M(several seeds of any moonseed plant and a piece of opalescent feldspar) 
 Duration: Concentration, up to 1 minute
-A silvery beam of pale light shines down in a 5-foot- radius, 40-foot-high cylinder centered on a point within range. Until the spell ends, dim light fills the cylinder.
-When a creature enters the spell's area for the first time on a turn or starts its turn there, it is engulfed in ghostly flames that cause searing pain, and it must make a 
-Constitution saving throw. It takes 2d10 radiant damage on a failed save, or half as much damage on a successful one.
+A silvery beam of pale light shines down in a 5-foot- radius, 40-foot-high cylinder centered on a point within range. 
+Until the spell ends, dim light fills the cylinder.
+When a creature enters the spell's area for the first time on a turn or starts its turn there, 
+it is engulfed in ghostly flames that cause searing pain, and it must make a Constitution saving throw. 
+It takes 2d10 radiant damage on a failed save, or half as much damage on a successful one.
 A shapechanger makes its saving throw with disadvantage. 
 If it fails, it also instantly reverts to its original form and can't assume a different form until it leaves the spell's light.
 On each of your turns after you cast this spell, you can use an action to move the beam 60 feet in any direction.
-At Higher Levels. When you cast this spell using a spell slot of 3rd levei or higher, the damage increases by
-1d10 for each slot level above 2nd.
+At Higher Levels. When you cast this spell using a spell slot of 3rd levei or higher, the damage increases by 1d10 for each slot level above 2nd.
 
 FLAMING SPHERE
 2nd-level conjuration
@@ -171,10 +175,10 @@ When you move the sphere, you can direct it over barriers up to 5 feet tall and 
 The sphere ignites flammable objeets not being worn or carried, and it sheds bright light in a 20 foot radius and dim light for an additional 20 feel.
 
 ENHANCE ABILITY
-2nd-leveI transmutation
+2nd-level transmutation
 Casting Time: 1 action
 Range: Touch
-Components: V,5,M(fur or a feather from a beast) 
+Components: V,S,M (fur or a feather from a beast) 
 Duration: Concentration, up to 1 hour.
 You touch a creature and bestow upon it a magical enhancement. Choose one of the following effects; the target gains that effect until the spell ends.
 - Bear's Endurance. The target has advantage on Constitution checks. lt also gains 2d6 temporary hit points, which are lost when the spell ends.
@@ -183,7 +187,7 @@ You touch a creature and bestow upon it a magical enhancement. Choose one of the
 - Eagle's Splendor. The target has advantage on Charisma checks.
 - Fox's Cunning. The target has advantage on Intelligence checks.
 - Owl's Wisdom. The target has advantage on Wisdom checks.
-At Higher LeveIs. When you cast this spell using a spell slot of 3rd leveI or higher, you can target one additional creature for each slot leveI above 2nd.
+At Higher Levels. When you cast this spell using a spell slot of 3rd level or higher, you can target one additional creature for each slot leveI above 2nd.
 
 CALL LIGHTNING
 3rd-level conjuration
@@ -191,13 +195,15 @@ Casting Time: 1 action
 Range: 120 feet
 Components: V,S
 Duration: Concentration, up to 10 minutes
-A storm cloud appears in the shape of a cylinder that is 10 feet tall wilh a 60.foot radius, centered on a point you can see 100 feet directly above you. The spell fails
-if you can't see a point in lhe air where the storm cloud could appear (for example, if you are in a room that can't accommodate the cloud).
-When you cast the spell, choose a point you can see within range. A bolt of lightning flashes down from the cloud to that point. Each creature wilhin 5 feet of that point must make a Dexterity saving throw. A creature takes 3d 10 lightning damage on a failed save, or half as much damage on a successful one. On each of your turns until the spell ends, 
-you can use your action to call down lightning in this way again, targeting the same point or a different one.
-lf you are outdoors in stormy conditions when you casl this spell, the spell gives you control over the existing storm instead of creating a new one. 
+A storm cloud appears in the shape of a cylinder that is 10 feet tall wilh a 60.foot radius, centered on a point you can see 100 feet directly above you. 
+The spell fails if you can't see a point in the air where the storm cloud could appear (for example, if you are in a room that can't accommodate the cloud).
+When you cast the spell, choose a point you can see within range. A bolt of lightning flashes down from the cloud to that point. 
+Each creature within 5 feet of that point must make a Dexterity saving throw. 
+A creature takes 3d 10 lightning damage on a failed save, or half as much damage on a successful one. 
+On each of your turns until the spell ends, you can use your action to call down lightning in this way again, targeting the same point or a different one.
+If you are outdoors in stormy conditions when you cast this spell, the spell gives you control over the existing storm instead of creating a new one. 
 Under such conditions, the spell's damage increases by 1d 10.
-At Higher Levels. When you cast this spell using a spell slot of 4th or higher level, the damage increases by 1dlO for each spell level above 3rd.
+At Higher Levels. When you cast this spell using a spell slot of 4th or higher level, the damage increases by 1d1O for each spell level above 3rd.
 
 PLANT GROWTH
 3rd-level transmutation
@@ -221,14 +227,16 @@ Duration: Concentration, up to 1 minute
 Until the spell ends, freezing rain and sleet fall in a 20-foot-tall cylinder with a 40-foot radius centered on a point you choose within range. 
 The area is heavily obscured, and exposed flames in the area are doused.
 The ground in the area is covered with slick ice, making it difficult terrain. 
-When a creature enters the spell's area for the first time on a turn or starts its turn there, it must make a Dexterity saving throw. On a failed save, it falls prone.
-If a creature is concentrating in the spell's area, the creature must make a successful Constitution saving throw against your spell save DC or lose concentration.
+When a creature enters the spell's area for the first time on a turn or starts its turn there, it must make a Dexterity saving throw. 
+On a failed save, it falls prone.
+If a creature is concentrating in the spell's area, 
+the creature must make a successful Constitution saving throw against your spell save DC or lose concentration.
 
 WINDWALL
 3rd-level evocation
 Casting Time: 1 action
 Range: 120 feet
-Components: V,S, M (a tiny fan and a feather of exotic origin)
+Components: V,S,M (a tiny fan and a feather of exotic origin)
 Duration: Concentration, up to 1 minute
 A wall of strong wind rises from the ground at a point you choose within range. 
 You can make the wall up to 50 feet long, 15 feet high, and 1 foot thick. 
@@ -247,7 +255,8 @@ Casting Time: 1 action
 Range: 60 feet
 Components: V,S
 Duration: Concentration, up lo 1 hour
-You summon fey spirits that take the form of beasts and appear in unoccupied spaces that you can see within range. Choose one of the following options for what appears:
+You summon fey spirits that take the form of beasts and appear in unoccupied spaces that you can see within range. 
+Choose one of the following options for what appears:
 
 One beast of challenge rating 2 or lower
 Two beasts of challenge rating 1 ar lower 
@@ -276,3 +285,101 @@ At Higher Levels.
 When you cast this spell using a spell slot of 4th level or higher, you automatically end the effects of a spell on the target 
 if the spell's level is equal to or less than the level of the spell slot you used.
 
+ELEMENTAL BANE
+Concentration
+LEVEL: 4th
+CASTING TIME: 1 Action
+RANGE/AREA: 90 ft
+COMPONENTS: V, S
+DURATION: Concentration 1 Minute
+SCHOOL: Transmutation
+ATTACK/SAVE: CON Save
+DAMAGE/EFFECT: Acid (...)
+Choose one creature you can see within range, and choose one of the following damage types: acid, cold, fire, lightning, or thunder. 
+The target must succeed on a Constitution saving throw or be affected by the spell for its duration. 
+The first time each turn the affected target takes damage of the chosen type, the target takes an extra 2d6 damage of that type. 
+Moreover, the target loses any resistance to that damage type until the spell ends.
+At Higher Levels. 
+When you cast this spell using a spell slot of 5th level or higher, you can target one additional creature for each slot level above 4th. 
+The creatures must be within 30 feet of each other when you target them.
+
+GUARDIAN OF NATURE
+Transmutation
+Level: 4
+Casting time: 1 Bonus Action
+Range: Self
+Components: V
+Duration: Concentration, up to 1 minute
+A nature spirit answers your call and transforms you into a powerful guardian. The transformation lasts until the spell ends. You choose one of the following forms to assume: Primal Beast or Great Tree.
+Primal Beast. Bestial fur covers your body, your facial features become feral, and you gain the following benefits:
+- Your walking speed increases by 10 feet.
+- You gain darkvision with a range of 120 feet.
+- You make Strength—based attack rolls with advantage.
+- Your melee weapon attacks deal an extra 1d6 force damage on a hit.
+Great Tree. Your skin appears barky, leaves sprout from your hair, and you gain the following benefits:
+. You gain 10 temporary hit points.
+- You make Constitution saving throws with advantage.
+- You make Dexterity- and Wisdom-based attack rolls with advantage.
+- While you are on the ground, the ground within 15 feet of you is difficult terrain for your enemies.
+
+POLYMORPH
+4 transmutation
+Casting Time: 1 action
+Range: 60 feet
+Components: V S M (A caterpillar cocoon)
+Duration: Concentration, Up to 1 hour
+Classes: Bard, Druid, Sorcerer, Wizard
+This spell transforms a creature that you can see within range into a new form. An unwilling creature must make a Wisdom saving throw to avoid the effect. 
+The spell has no effect on a shapechanger or a creature with 0 hit points.
+The transformation lasts for the duration, or until the target drops to 0 hit points or dies. 
+The new form can be any beast whose challenge rating is equal to or less than the target’s (or the target’s level, if it doesn’t have a challenge rating). 
+The target’s game statistics, including mental ability scores, are replaced by the statistics of the chosen beast. It retains its alignment and personality.
+The target assumes the hit points of its new form. When it reverts to its normal form, the creature returns to the number of hit points it had before it transformed. 
+If it reverts as a result of dropping to 0 hit points, any excess damage carries over to its normal form. 
+As long as the excess damage doesn’t reduce the creature’s normal form to 0 hit points, it isn’t knocked unconscious.
+The creature is limited in the actions it can perform by the nature of its new form, and it can’t speak, cast spells, or take any other action that requires hands or speech.
+The target’s gear melds into the new form. The creature can’t activate, use, wield, or otherwise benefit from any of its equipment.
+
+WALL OF FIRE
+4th-level evocation
+Casting Time: 1 action
+Range: 120 feet
+Components: V, S, M (a small piece of phosphorus) 
+Duration: Concentration, up to 1 minute
+You create a wall of fire on a solid surface within range. 
+You can make the wall up to 60 feet long, 20 feet high, and 1 foot thick, ar a ringed wall up to 20 feet in diameter, 20 feet high, and 1 foot thick. 
+The wall is opaque and lasts for the duration.
+When the wall appears, each creature within its area must make a Dexterity saving throw. 
+On a failed save, a creature takes 5d8 fire damage, ar half as much damage on a successful save.
+One side of the wall, selected by you when you cast this spell, 
+deals 5d8 fire damage to each creature that ends its turn within 10 feet of that side ar inside the wall. 
+A creature takes the same damage when it enters the wall for the first time on a turn ar ends its turn there. 
+The other side of the wall deals no damage.
+At Higher Levels. When you cast this spell using a spell slot of 5th level ar higher, the damage increases by 1d8 for each slot level above 4th.
+
+BLIGHT
+4th-level necromancy
+Casting Time: 1 action 
+Range: 30 feet 
+Components: V,S 
+Duration: Instantaneous
+Necromantic energy washes over a creature of your choice that you can see within range, draining moisture and vitality from it. 
+The target must make a Constitution saving throw. 
+The target takes 8d8 necrotic damage on a failed save, or half as much damage on a successful one. 
+This spell has no effect on undead or constructs.
+lf you target a plant creature or a magical plant, it makes the saving throw with disadvantage, and the spell deals maximum damage to it.
+lf you target a nonmagical plant that isn't a creature, such as a tree or shrub, it doesn't make a saving throw; it simply withers and dies.
+At Higher Levels. When you cast this spell using a spell slot of 5th levei or higher, the damage increases by
+1d8 for each slot level above 4th.
+
+CONFUSION
+4th-level enchantment
+Casting Time: 1 action
+Range: 90 feet
+Components: V, S, M (three nut shells) 
+Duration: Concentration, up to 1 minute
+This spell assaults and twists creatures' minds, spawning delusions and provoking uncontrolled action. 
+Each creature in a 10-foot-radius sphere centered on a point you choose within range 
+must succeed on a Wisdom saving throw when you cast this spell or be affected by it.
+An affected target can't take reactions and 
+must roll a d10 at the start of each of its turns to determine its behavior for that turn.

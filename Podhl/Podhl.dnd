@@ -1,8 +1,8 @@
 Podhl Titanbark
 
 -- Stats --
->echo "> Lvl        6"
->echo "> XP         19270"
+>echo "> Lvl        7"
+>echo "> XP         26500"
 >echo "> HP         `cat currentHealth`/`cat totalHealth`"
 >echo "> Str        `cat strength`+1 (Trait)     `printModifier $(echo $(( $(cat strength) + 1 )) )`"
 >echo "> Dex        `cat dexterity`               `printModifier $(echo $(( $(cat dexterity) )) )`"
@@ -11,14 +11,14 @@ Podhl Titanbark
 >echo "> Wis        `cat wisdom`+2 (Trait)     `printModifier $(echo $(( $(cat wisdom) + 2 )) )`"
 >echo "> Cha         `cat charisma`               `printModifier $(echo $(( $(cat charisma) )) )`"
 >echo "> Prof       +`cat proficiency`"
->echo "> Practice   6/15 Cook's Tools"
+>echo "> Practice   OPEN"
 >echo "> Wild Shape 2/2"
 >echo "> Age        100"
 >echo "> Alignment  Chaotic Good"
 >echo "> Size       10ft 5in; 600lbs; Medium"
 >echo "> Speed      30ft"
 >echo "> Hit Die    d8"
->echo "> Heal Dice   0/6"
+>echo "> Heal Dice   6/6"
 
 -- Combat --
 <echo "< AC                                                                            $(( $(cat armorAC) + `getModifier $(echo $(( $(cat dexterity) )) )` + 2 ))"
@@ -27,7 +27,7 @@ Podhl Titanbark
 <echo "< Attack Modifier to hit (Quarterstaff)    Strength + Proficiency               $(( `getModifier $(echo $(( $(cat strength) + 1 )) )` + `cat proficiency` ))"
 <echo "< Attack Modifier to hit (Dart)            Strength/Dexterity + Proficiency     `printModifier $(echo $(( $(cat strength) + 1 )) )`/`printModifier $(echo $(( $(cat dexterity) )) )` + `cat proficiency`"
 <echo "< Spell Modifier                           Proficiency + Wisdom                 $(( $(cat proficiency) + `getModifier $(echo $(( $(cat wisdom) )) )` ))"
-<echo "< Spell Save DC                            8 + Proficiency + Wisdom             $(( 8 + $(cat proficiency) + `getModifier $(echo $(( $(cat wisdom) + 2  )) )` ))"
+<echo "< Spell Save DC                            8 + Proficiency + Wisdom             $(( 8 + $(cat proficiency) + `getModifier $(echo $(( $(cat wisdom) + 2  )) )` ))+1"
 <echo "< Spell Slots                              Lvl 1: `cat currentSpellSlots_1`/`cat totalSpellSlots_1`" 
 <echo "<                                          Lvl 2: `cat currentSpellSlots_2`/`cat totalSpellSlots_2`"
 <echo "<                                          Lvl 3: `cat currentSpellSlots_3`/`cat totalSpellSlots_3`"
@@ -77,6 +77,8 @@ Notes:
 
 -- Proficiencies --
 * +1 to all via Stone of Good Luck
+* +3
+* Cooks Tools
 * Skill (Background)
  * Medicine +8
  * Religion +3
@@ -142,15 +144,20 @@ Notes:
    + 1 - Conjure Animals
    + 2 - Wind Wall
    + 3 - Dispel Magic
+ + 4th Level
+   + X - Guardian of Nature (Nature's Wrath)
+   + X - Polymorph (Nature's Wrath)
+   + X - Elemental Bane (Nature's Wrath)
+   + 1 - Blight
 -- Equipment --
 [ 181 G 26 S
 [ Wooden Sword 1d4 Bludgeoning
 [ Wooden Shield +2 AC
 [ Dart 1d4 Piercing Finesse, thrown (20/60)
-[ Green Dragon Hooded Tempered Darkwood Breastplate   14 AC + Dex
+[ Tyranno Rah Hooded Tempered Darkwood Breastplate   14 AC + Dex
 [ Stone of Good Luck (Attunement) +1 ability check & saving throws
 [ Druidic Focus    Joint Filter Tip made of Holly
-[ Nature's Wrath
+[ Nature's Wrath  1d6 bludgeoning
 [ Explorer's Pack
   [ Backpack
   [ Bedroll

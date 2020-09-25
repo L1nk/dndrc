@@ -1,31 +1,37 @@
 function abs() {
-	echo "-- $1's Abilities --"
-	cat $1.dnd | grep '^\s*+'
+	character=`cat ../currentCharacter`
+	echo "-- $character's Abilities --"
+	cat $character.dnd | grep '^\s*+'
 }
 
 function desc() {
-	echo "-- $1's Description --"
-	cat $1.dnd | grep '\~'
+        character=`cat ../currentCharacter`
+	echo "-- $character's Description --"
+	cat $character.dnd | grep '\~'
 }
 
 function eq() {
-	echo "-- $1's Equipment --"
-	cat $1.dnd | grep '\['
+	character=`cat ../currentCharacter`
+	echo "-- $character's Equipment --"
+	cat $character.dnd | grep '\['
 }
 
 function stats() {
-	echo "-- $1's Stats --"
-	cat $1.dnd | grep '^>' | cut -f2- -d\> | bash --rcfile ../.dndrc -i /dev/stdin | grep '^>'
+	character=`cat ../currentCharacter`
+	echo "-- $character's Stats --"
+	cat $character.dnd | grep '^>' | cut -f2- -d\> | bash --rcfile ../.dndrc -i /dev/stdin | grep '^>'
 }
 
 function combat() {
-	echo "-- $1's Combat Modifiers"
-	cat $1.dnd | grep '^<' | cut -f2- -d\< | bash --rcfile ../.dndrc -i /dev/stdin | grep '^<'
+	character=`cat ../currentCharacter`
+	echo "-- $character's Combat Modifiers"
+	cat $character.dnd | grep '^<' | cut -f2- -d\< | bash --rcfile ../.dndrc -i /dev/stdin | grep '^<'
 }
 
 function prof() {
-	echo "-- $1's Proficiencies --"
-	cat $1.dnd | grep '^\s*\*'
+	character=`cat ../currentCharacter`
+	echo "-- $character's Proficiencies --"
+	cat $character.dnd | grep '^\s*\*'
 }
 
 function getModifier() {
