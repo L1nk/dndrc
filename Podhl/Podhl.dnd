@@ -2,7 +2,7 @@ Podhl Titanbark
 
 -- Stats --
 >echo "> Lvl        7"
->echo "> XP         26500"
+>echo "> XP         34000"
 >echo "> HP         `cat currentHealth`/`cat totalHealth`"
 >echo "> Str        `cat strength`+1 (Trait)     `printModifier $(echo $(( $(cat strength) + 1 )) )`"
 >echo "> Dex        `cat dexterity`               `printModifier $(echo $(( $(cat dexterity) )) )`"
@@ -15,10 +15,10 @@ Podhl Titanbark
 >echo "> Wild Shape 2/2"
 >echo "> Age        100"
 >echo "> Alignment  Chaotic Good"
->echo "> Size       10ft 5in; 600lbs; Medium"
+>echo "> Size       10ft 5in; 400lbs; Medium"
 >echo "> Speed      30ft"
 >echo "> Hit Die    d8"
->echo "> Heal Dice   6/6"
+>echo "> Heal Dice   5/6"
 
 -- Combat --
 <echo "< AC                                                                            $(( $(cat armorAC) + `getModifier $(echo $(( $(cat dexterity) )) )` + 2 ))"
@@ -154,7 +154,7 @@ Notes:
 [ Wooden Sword 1d4 Bludgeoning
 [ Wooden Shield +2 AC
 [ Dart 1d4 Piercing Finesse, thrown (20/60)
-[ Tyranno Rah Hooded Tempered Darkwood Breastplate   14 AC + Dex
+[ Tyranno Rah Hooded Tempered Darkwood Breastplate   14 +1 AC + Dex
 [ Stone of Good Luck (Attunement) +1 ability check & saving throws
 [ Druidic Focus    Joint Filter Tip made of Holly
 [ Nature's Wrath  1d6 bludgeoning
@@ -173,7 +173,6 @@ Notes:
 [ Cook's Tools
 [ Tattered Book
 [ 2 potion of healing 10hp
-[ Potion of Fire Breath
 [ Potion of Growth
 [ quaal's feather token - Tree. You must be outdoors to use this token. You can use an action to touch it to an unoccupied space on the ground. The token disappears, and in its place a nonmagical oak tree springs into existence. The tree is 60 feet tall and has a 5-foot-diameter trunk, and its branches at the top spread out in a 20-foot radius.
 [ small aeon crystal x1
